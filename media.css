@@ -1,0 +1,212 @@
+@media (width <= 1300px) {
+  .specialize-cards {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (width <= 1200px) {
+  .nav-content ul {
+    gap: 40px;
+  }
+  .nav-content ul li a {
+    font-size: 13px;
+  }
+  .footer-links {
+    justify-content: center;
+    gap: 100px;
+  }
+  .footer-input {
+    justify-content: center;
+    gap: 100px;
+  }
+  .footer-desc {
+    justify-content: center;
+    gap: 100px;
+  }
+}
+@media (width <=900px) {
+  .footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-input {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-desc {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (width <= 800px) {
+  .nav-content ul {
+    gap: 30px;
+  }
+  .nav-content ul li a {
+    font-size: 11px;
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .footer-links-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .footer-links-title {
+    text-align: center;
+  }
+  .footer-links-title p {
+    font-size: 10px;
+  }
+}
+@media (width <= 720px) {
+  .nav-content ul {
+    display: none;
+  }
+  .header-content h1 {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .description {
+    font-size: 10px;
+  }
+  .help h2 {
+    font-size: 36px;
+  }
+  .help p {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 620px) {
+  .header-content h1 {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 46px;
+  }
+  .description {
+    font-size: 10px;
+    width: 420px;
+  }
+  .tools-content h2 {
+    font-size: 10px;
+  }
+  .main-title {
+    font-size: 20px;
+  }
+  .main-descr {
+    width: 450px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .tools-content {
+    margin-left: 50px;
+  }
+  .help h2 {
+    font-size: 30px;
+  }
+  .help p {
+    font-size: 16px;
+  }
+  .footer-input input {
+    padding: 16px 280px 16px 24px;
+  }
+  .first-card {
+    padding: 423px 10px 10px 10px;
+  }
+  .second-card {
+    padding: 423px 10px 10px 10px;
+  }
+  .third-card {
+    padding: 423px 10px 10px 10px;
+  }
+  .fourth-card {
+    padding: 423px 10px 10px 10px;
+  }
+  .specialize-cards-content h2 {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .specialize-cards-content p {
+    font-size: 10px;
+    width: 400px;
+  }
+  .help h2 {
+    width: 400px;
+    font-size: 30px;
+  }
+}
+@media (width <= 510px) {
+  .footer-input input {
+    padding: 16px 200px 16px 24px;
+  }
+  .main-title {
+    font-size: 16px;
+  }
+  .main-descr {
+    width: 350px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+}
+@media (width <= 420px) {
+  .specialize-cards-content p {
+    font-size: 10px;
+    width: 200px;
+  }
+  .first-card {
+    padding: 423px 20px 20px 10px;
+  }
+  .second-card {
+    padding: 423px 20px 20px 10px;
+  }
+  .third-card {
+    padding: 423px 20px 20px 10px;
+  }
+  .fourth-card {
+    padding: 423px 20px 20px 10px;
+  }
+  .main-descr {
+    width: 200px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .footer-input input {
+    padding: 16px 100px 16px 24px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 10px;
+    width: 220px;
+  }
+  .footer-desc {
+    width: 100px;
+  }
+  .help h2 {
+    width: 200px;
+  }
+  .mount p {
+    width: 230px;
+  }
+  .leafs-content p {
+    width: 230px;
+  }
+  .star-content p {
+    width: 230px;
+  }
+}
